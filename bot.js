@@ -6,11 +6,11 @@ const Canvas = require('canvas')
 const fs = require("fs")
 const moment = require ("moment")
 const jimp = require ("jimp")
-const prefix = '!!'
+const prefix = 'S!'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`test`)
+client.user.setGame(`Soon`)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -33,6 +33,8 @@ client.on('ready', () => {
   console.log('')
   console.log('')
 });
+
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -128,6 +130,9 @@ channel.guild.owner.send(`<@!${channelremover.id}>
  channelr[channelremover.id].deleted = 0;
   },Otime)
   });
+
+
+
 
 const db = require('quick.db');
 const giphy = require('giphy-api')();    
@@ -335,38 +340,6 @@ function play(guild, song) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.on('message', message => {
   if (message.channel.id === "612891170418458650") {
     message.react('☑')
@@ -375,49 +348,6 @@ client.on('message', message => {
       });
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
